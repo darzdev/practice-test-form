@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+:root{
+
+--font: 'Montserrat', sans-serif;   
+
+--h3: 24px;
+--h6: 14px;
+--btn-text: 14;
+
+--text-color-dark: #252B42;
+--text-color-grey: #737373;
+
+--bg-form-light: #FFFFFF;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: black;
+}
+
+.form{
+    margin: 50px auto;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 328px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 40px;
+    gap: 10px;
+}
+
+h3{
+    font-family: var(--font);
+    font-size: var(--h3);
+    text-align: center;
+    color: var(--text-color-dark);
+    margin-bottom: 30px;
+}
+
+label{
+    font-family: var(--font);
+    font-size: var(--btn-text);
+    font-weight: 600;
+    text-align: start;
+    color: var(--text-color-dark);
+}
+
+input,
+select{
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    padding: 11px 24px;
+    font-family: var(--font);
+    font-size: var(--h6);
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: var(--text-color-grey);
+}
+
+.form-btn{
+    background: #23A6F0;
+    border-radius: 5px;
+    padding: 15px 40px;
+    font-family: var(--font);
+    font-size: var(--btn-text);
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+}
+
